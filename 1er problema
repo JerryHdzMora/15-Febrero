@@ -1,0 +1,9 @@
+syms x a
+y=2*x+a;
+soln=solve(y==5,x)
+ 
+soln =
+ 
+5/2 - a/2
+ 
+soln = subs(y,[a x],[1 2])
