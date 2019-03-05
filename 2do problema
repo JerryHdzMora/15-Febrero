@@ -1,0 +1,5 @@
+syms x a b y c
+eqn = x^2+a*x+b;
+q = subs(eqn,[a b],[3 2])
+p = solve(q==0, x)
+subs(eqn,[a b x], [3 2 -2])
