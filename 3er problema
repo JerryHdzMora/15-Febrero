@@ -1,0 +1,4 @@
+syms x a b y c
+eqn = 2*exp(x)+3*cos(x);
+p = subs(eqn,x,1)
+q = vpa(p)
