@@ -1,0 +1,8 @@
+syms a b c
+eqn = 2*x-3*c*y;
+eqn2 = c*x+2*y;
+p1 = subs(eqn, c, 2);
+p2 = subs(eqn2, c, 2);
+q = solve([p1==5,p2==7], [x,y]);
+DX=q.x
+DY=q.y 
