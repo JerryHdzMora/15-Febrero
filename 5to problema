@@ -1,0 +1,5 @@
+eqn = 3*x^2-2*x+y;
+eqn2 = x*y+x;
+E = solve([eqn==7,eqn2==5], [x,y]);
+EX=E.x
+EY=E.y
